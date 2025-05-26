@@ -1,5 +1,6 @@
-from setuptools import find_packages, setup
 from typing import List
+
+from setuptools import find_packages, setup
 
 HYPHEN_E_DOT = "-e ."
 
@@ -21,6 +22,7 @@ def get_requirements(file_path: str) -> List[str]:
 
 setup(
     name="Laptop-Price",
+    version="0.0.1",
     author="shiv shankar s",
     author_email="shivshankarsajeev@gmail.com",
     packages=find_packages(),
